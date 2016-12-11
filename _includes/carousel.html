@@ -14,7 +14,21 @@
          data-title="{{ x.title }}"
          data-url="{{ x.url }}"
          data-width="{{ x.width }}"
-         data-height="{{ x.height }}">
+         data-height="{{ x.height }}"
+         {% comment %}
+         I tried to pass the value as an array, but I
+         couldn't get it to work.
+         data-buttons={{ x.buttons | jsonify | escape }}
+         So, instead, I iterate through the array and
+         create a new data-attribute for each array element.
+         {% endcomment %}
+         {% assign i = 1 %}
+         {% for b in x.buttons %}
+         data-button-{{ i }}-title="{{ b.title }}"
+         data-button-{{ i }}-url="{{ b.url }}"
+         {% assign i = i | plus: 1 %}
+         {% endfor %}
+         >
         <img src="{{ x.thumb }}" alt="{{ x.title }}" />
       </a>
       {% else %}
@@ -32,7 +46,9 @@
             aria-hidden="true">
       </span>
     </a>
-    <div class="drawer-content">
+    <div class="content">
+    </div>
+    <div class="buttons">
     </div>
   </div>
 </div>
