@@ -16,7 +16,12 @@
   width : 500
   height: 281
   url   : https://player.vimeo.com/video/191672206
-  thumb : img/film_thumbs/season-2/Ep3.jpg 
+  thumb : img/film_thumbs/season-2/Ep3.jpg
+  buttons :
+    - title: PRE Survey
+      url  : https://www.surveymonkey.com/r/S2E3PRE
+    - title: POST Survey
+      url  : https://www.surveymonkey.com/r/S2E3POST
 - ep    : 4
   title : "Mary Cassatt + Trauma + Nut"
   width : 500
