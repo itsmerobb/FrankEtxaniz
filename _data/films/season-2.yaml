@@ -32,7 +32,7 @@
   width : 500
   height: 281
   thumb : img/film_thumbs/season-2/ep5.jpg
-  url   : https://vimeo.com/201106490
+  url   : https://player.vimeo.com/video/201106490
    buttons :
     - title: PRE Survey
       url  : https://www.surveymonkey.com/r/S2E5PRE
