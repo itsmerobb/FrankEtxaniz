@@ -28,10 +28,16 @@
   height: 281
   thumb : img/film_thumbs/season-2/ep4.jpg
 - ep    : 5
-  title : "Louise Nevelson + Racism + Edamame"
+  title : "Cinque and the Amistad + Jesse Owens and the Olympics + Jean-Michel Basquiat + Mangos"
   width : 500
   height: 281
   thumb : img/film_thumbs/season-2/ep5.jpg
+  url   : https://vimeo.com/201106490
+   buttons :
+    - title: PRE Survey
+      url  : https://www.surveymonkey.com/r/S2E5PRE
+    - title: POST Survey
+      url  : https://www.surveymonkey.com/r/S2E5POST
 - ep    : 6
   title : "El Greco + Breathing + Beans"
   width : 500
